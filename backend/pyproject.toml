@@ -1,0 +1,27 @@
+[project]
+name = "documind-backend"
+version = "1.0.0"
+description = "CPU-only Retrieval-Augmented Generation API"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "model: uses the real BAAI/bge-small-en-v1.5 embedding model (downloaded on first use)",
+    "integration: requires a running Ollama server with the configured model",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+]
+
+[tool.ruff]
+line-length = 140
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+# B008: FastAPI's Depends()/File()/Query() defaults are idiomatic.
+# UP042: str+Enum is kept for SQLAlchemy/pydantic compatibility.
+ignore = ["B008", "UP042", "SIM108", "SIM105", "SIM905"]

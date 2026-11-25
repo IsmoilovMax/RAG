@@ -1,0 +1,27 @@
+# Python
+backend/.venv/
+backend/data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+backend/.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs
+*.log
+.ruff_cache/

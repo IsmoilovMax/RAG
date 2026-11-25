@@ -1,0 +1,16 @@
+Northwind Robotics Customer Support FAQ
+
+Q: How long is the warranty on Atlas robots?
+A: All Atlas robots include a 3-year warranty covering parts and labour. An extended
+warranty of up to 5 years can be purchased within the first 12 months.
+
+Q: How fast does support respond?
+A: Critical tickets (robot fleet stopped) receive a response within 2 hours, 24/7.
+Standard tickets receive a response within 1 business day.
+
+Q: How often is firmware updated?
+A: Firmware updates are released monthly on the first Tuesday of each month and are
+installed automatically during the configured maintenance window.
+
+Q: How do I contact support?
+A: Email support@northwind.example or call +372 600 4400.

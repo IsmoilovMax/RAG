@@ -1,0 +1,5 @@
+SKU,Part,Stock,Warehouse,Reorder Level
+NW-1001,LiDAR sensor,128,Tallinn,40
+NW-1002,Drive motor,312,Rotterdam,100
+NW-1003,LFP battery pack,57,Tallinn,60
+NW-1004,Bumper safety strip,890,Helsinki,200
